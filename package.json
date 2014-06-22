@@ -1,0 +1,26 @@
+{
+  "name": "shooter",
+  "description": "A Simple Shooter",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "hammerjs": "*",
+    "node-buzz": "*",
+    "lodash": "*",
+    "async": "*"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "browserify-shim": {
+    "soundjs": "global:createjs.Sound",
+    "three": "global:THREE"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "grunt": "latest",
+    "grunt-browserify": "latest",
+    "grunt-contrib-watch": "latest",
+    "browserify-shim": "latest"
+  }
+}
