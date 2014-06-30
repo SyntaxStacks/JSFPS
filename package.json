@@ -14,7 +14,8 @@
   },
   "browserify-shim": {
     "soundjs": "global:createjs.Sound",
-    "three": "global:THREE"
+    "three": "global:THREE",
+    "pointerLock": "global:THREE.PointerLockControls"
   },
   "devDependencies": {
     "jshint": "latest",
